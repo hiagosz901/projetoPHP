@@ -42,10 +42,62 @@ echo("<pre>");
 var_dump($aluno);
 echo("</pre>");
 */
-
+/*
 for ($i=0 ; < 6 ; $i++ ){
 	$vetor[$i] = 12;
 }
 for ($i=0 ; < 6 ; $i++){
 	echo "O valor do vetor:" . $vetor[$i] . "<br/>";
 }
+
+#copia pag 3 aula 8 
+$nome1 = "Marcia"
+$nome2 = "Joseph"
+$nome3 = "Enzo"
+$nome4 = "Pablo"
+$nome5 = "Clarck"
+
+echo("$nome1<br/>$nome2<br/>$nome3<br/>$nome4<br/>$nome5<br/>");
+
+?>
+
+<<?php 
+
+ 
+$nome = array("Marcia","Joseph", "Enzo", "Pablo", "Clarck");
+
+echo "Os nome no array <br/>";
+
+foreach( $nome as $nomes){
+
+	echo "<br/>".$nomes;
+
+}
+*/
+
+$num = array(1,2,3,4,5);
+	
+	foreach($num as $valor) {
+		echo"Valor e $valor <br/>";
+	}
+
+$Num[0] = "um";
+$Num[1] = "dois";
+$Num[2] = "três";
+$Num[3] = "quatro";
+$Num[5] = "cinco";
+
+foreach($num as $valor){
+	echo "Valor é $valor <br/>";
+}
+
+
+
+$nome["MA"] = "Marcos";
+$nome["PA"] = "Paulo";
+$nome["Mi"] = "Miriam";
+
+echo("<pre>");
+var_dump($nome);
+ ?>
+
